@@ -4,7 +4,7 @@ A Python 3 script for scraping the [Hacker News](https://news.ycombinator.com/ne
 
 * number of points, and/or
 * number of comments, and/or
-* excluding posts [{dead | flagged | youtube | wikipedia | ...}] according to a keywords list
+* excluding posts {dead | flagged | youtube | wikipedia | ...} according to a keywords list
 
 Run via ~/.bashrc alias or crontab.
 

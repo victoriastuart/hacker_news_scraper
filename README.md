@@ -1,6 +1,6 @@
 # hacker_news_scraper
 
-A Python 3 script for scraping the Hacker News feed, filtering that content by
+A Python 3 script for scraping the [Hacker News](https://news.ycombinator.com/news) feed, filtering that content by
 
 * number of points, and/or
 * number of comments, and/or

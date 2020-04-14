@@ -1,0 +1,173 @@
+{
+  "title": "Malleable Systems: Software must be as easy to change as it is to use it",
+  "link": "https://malleable.systems/",
+  "votes": 314,
+  "comments": "178",
+  "age (h)": 20
+}
+{
+  "title": "Renaming files with mv without typing the name two times",
+  "link": "https://gist.github.com/premek/6e70446cfc913d3c929d7cdbfe896fef",
+  "votes": 588,
+  "comments": "222",
+  "age (h)": 15
+}
+{
+  "title": "Ask HN: How to rediscover the joy of programming?",
+  "link": "item?id=22860682",
+  "votes": 304,
+  "comments": "208",
+  "age (h)": 14
+}
+{
+  "title": "Honeypot as a Service",
+  "link": "https://haas.nic.cz/",
+  "votes": 94,
+  "comments": "13",
+  "age (h)": 14
+}
+{
+  "title": "Fear and beauty: two weeks living with Covid-19",
+  "link": "https://joshuaweissburg.com/2020/04/12/fear-and-beauty-two-weeks-living-with-covid-19/?utm_source=yc",
+  "votes": 210,
+  "comments": "146",
+  "age (h)": 13
+}
+{
+  "title": "Show HN: A Go unikernel capable of running GUI programs",
+  "link": "https://groups.google.com/forum/#!topic/golang-nuts/4cDIL5Vr_es",
+  "votes": 135,
+  "comments": "13",
+  "age (h)": 12
+}
+{
+  "title": "The Metric We Need to Manage Covid-19",
+  "link": "http://systrom.com/blog/the-metric-we-need-to-manage-covid-19/",
+  "votes": 142,
+  "comments": "57",
+  "age (h)": 12
+}
+
+==============================================================================
+Older results: 2020-04-13 18:44:20
+==============================================================================
+
+{
+  "title": "John Conway",
+  "link": "https://terrytao.wordpress.com/2020/04/12/john-conway/",
+  "votes": 454,
+  "comments": "39",
+  "age (h)": 11
+}
+{
+  "title": "The Weirdly Enduring Appeal of Weird Al Yankovic",
+  "link": "https://www.nytimes.com/2020/04/09/magazine/weird-al-yankovic.html",
+  "votes": 139,
+  "comments": "86",
+  "age (h)": 11
+}
+{
+  "title": "Economists who defend disaster profiteers are wrong",
+  "link": "https://www.economist.com/finance-and-economics/2020/04/11/many-economists-defend-disaster-profiteers-they-are-wrong",
+  "votes": 141,
+  "comments": "293",
+  "age (h)": 11
+}
+{
+  "title": "Ladder of Algebraic Structures",
+  "link": "https://jwkennington.com/blog/algebra-ladder/",
+  "votes": 106,
+  "comments": "25",
+  "age (h)": 9
+}
+{
+  "title": "Mongolia to restore traditional alphabet",
+  "link": "https://news.mn/en/791396/",
+  "votes": 147,
+  "comments": "132",
+  "age (h)": 7
+}
+{
+  "title": "Generating Crime Safe CSRF Tokens",
+  "link": "https://blog.hboeck.de/archives/900-Generating-CRIME-safe-CSRF-tokens.html",
+  "votes": 22,
+  "comments": "7",
+  "age (h)": 6
+}
+{
+  "title": "The Webpage, an online RSS reader and news aggregator, styled like a newspaper",
+  "link": "https://news.russellsaw.io",
+  "votes": 82,
+  "comments": "21",
+  "age (h)": 5
+}
+{
+  "title": "PCem \u2013 An emulator of old PC hardware platforms",
+  "link": "https://pcem-emulator.co.uk/development.html",
+  "votes": 53,
+  "comments": "15",
+  "age (h)": 5
+}
+{
+  "title": "Beyond the Read-Eval Loop: The Artifacts System (1994)",
+  "link": "https://archive.org/details/DTIC_ADA276589/mode/2up",
+  "votes": 9,
+  "comments": "293",
+  "age (h)": 5
+}
+{
+  "title": "Ask HN: What are you reading to make sense of the economy?",
+  "link": "item?id=22861452",
+  "votes": 133,
+  "comments": "136",
+  "age (h)": 4
+}
+{
+  "title": "Ask HN: In the current crisis is starting freelancing doable?",
+  "link": "item?id=22864188",
+  "votes": 54,
+  "comments": "19",
+  "age (h)": 3
+}
+{
+  "title": "gh \u2013 GitHub's new CLI",
+  "link": "https://johnpapa.net/try-githubs-new-cli-gh/",
+  "votes": 16,
+  "comments": "4",
+  "age (h)": 2
+}
+{
+  "title": "Half of American workers would rather work from home forever",
+  "link": "https://www.zippia.com/advice/coronavirus-remote-work-survey/",
+  "votes": 50,
+  "comments": "30",
+  "age (h)": 1
+}
+{
+  "title": "Digital surveillance technologies to fight pandemic must respect human rights",
+  "link": "https://www.ccc.de/en/updates/2020/pandemie-menschenrechte",
+  "votes": 53,
+  "comments": "7",
+  "age (h)": 1
+}
+{
+  "title": "Comparing HTTP/3 vs. HTTP/2 Performance",
+  "link": "https://blog.cloudflare.com/http-3-vs-http-2/",
+  "votes": 86,
+  "comments": "4",
+  "age (h)": 1
+}
+{
+  "title": "Google cancels legacy Google Play Music subscriptions",
+  "link": "https://support.google.com/googleplay/thread/38496877",
+  "votes": 145,
+  "comments": "65",
+  "age (h)": 0.9333333333333333
+}
+{
+  "title": "IMF Says Great Lockdown Recession Likely Worst Since Depression",
+  "link": "https://www.bloomberg.com/news/articles/2020-04-14/imf-says-great-lockdown-recession-likely-worst-since-depression",
+  "votes": 10,
+  "comments": "5",
+  "age (h)": 0.26666666666666666
+}

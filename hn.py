@@ -32,7 +32,7 @@ Usage: via crontab and/or ~/.bashrc alias.  Recommendation: 2x daily via crontab
 
         # "At 6 and 18 daily." [http://crontab.guru/]:
         0    6,18    *    *    *    victoria    nice -n 19    /home/victoria/venv/py3.7/bin/python /mnt/Vancouver/programming/python/scripts/hn.py
-        0    6,18    *    *    *    victoria    nice -n 19    notify-send -i warning -t 0 "New Hacker News feeds at" "/mnt/Vancouver/programming/python/scripts/output/hn.txt"
+        0    6,18    *    *    *    victoria    nice -n 19    notify-send -i "/mnt/Vancouver/programming/python/scripts/hacker_news.png" -t 0 "New Hacker News feeds at" "<span color='#57dafd' font='16px'><a href=\"file:///mnt/Vancouver/programming/python/scripts/output/\">/mnt/Vancouver/programming/python/scripts/output/</a></span>"
 
     * BASHRC (~/.bashrc [p37 venv]):
 

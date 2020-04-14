@@ -6,6 +6,6 @@ A Python 3 script for scraping the [Hacker News](https://news.ycombinator.com/ne
 * number of comments, and/or
 * excluding posts {dead | flagged | youtube | wikipedia | ...} according to a keywords list
 
-Run via ~/.bashrc alias or crontab.
+Run via `~/.bashrc` alias or `crontab`.
 
 Experimental code; I will monitor it locally (scheduled to run {06:00 | 18:00} daily, starting 2020-04-14) for bugs, etc.

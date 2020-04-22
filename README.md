@@ -8,6 +8,4 @@ A Python 3 script for scraping the [Hacker News](https://news.ycombinator.com/ne
 
 Run via `~/.bashrc` alias or `crontab` (see notes near top of script).
 
-Experimental code; I will monitor it locally (scheduled to run {06:00 | 18:00} daily, starting 2020-04-14) for bugs, etc.
-
 Sample output: [hn.txt](https://github.com/victoriastuart/hacker_news_scraper/blob/master/hn.txt)

@@ -4,17 +4,22 @@
 
 """ ===========================================================================
          file: /mnt/Vancouver/programming/python/scripts/hn.py
+        about: Python script to scrape Hacker News feed and filter by {points | number of comments | keywords}
         title: Hacker News Scraper
        author: Victoria A. Stuart
      based on: https://github.com/RBrache21/HackerNewsScrapper
       created: 2020-04-09
-      version: 03
-last modified: 2020-04-13 18:50:05 -0700 (PST)
-      Comment: Python script to scrape Hacker News feed and filter by {points | number of comments | keywords}
+      version: 05
+last modified: 2020-04-22 11:56:11 -0700 (PST)
+
+   Notes: I program in Vim with textwidth=220
+
 Versions:
     * v01 : modifications to script sourced from GitHub (link above)
     * v02 : scripting / testing
     * v03 : added [exclusions] list; cleaned up code (removed extraneous comments ...)
+    * v04 : added URL to Hacker News source (which contains the Comments, if any)
+    * v05 : edited (cleaned) script
 
 See also:
     * https://edavis.github.io/hnrss/
@@ -22,18 +27,24 @@ See also:
 
 Usage: via crontab and/or ~/.bashrc alias.  Recommendation: 2x daily via crontab.
 
+    # ----------------------------------------------------------------------------
     * CRONTAB (sudo vim crontab):
 
         # ============================================================================
         # HACKER NEWS FEED UPDATE
         # ============================================================================
-
         # m    h    dom    mon    dow    user    nice    command
-
         # "At 6 and 18 daily." [http://crontab.guru/]:
         0    6,18    *    *    *    victoria    nice -n 19    /home/victoria/venv/py3.7/bin/python /mnt/Vancouver/programming/python/scripts/hn.py
         0    6,18    *    *    *    victoria    nice -n 19    notify-send -i "/mnt/Vancouver/programming/python/scripts/hacker_news.png" -t 0 "New Hacker News feeds at" "<span color='#57dafd' font='16px'><a href=\"file:///mnt/Vancouver/programming/python/scripts/output/\">/mnt/Vancouver/programming/python/scripts/output/</a></span>"
 
+        The last line above, reformatted here for readability but one line in crontab, is:
+
+            notify-send -i "/mnt/Vancouver/programming/python/scripts/hacker_news.png" -t 0 "New Hacker News feeds at" \
+            "<span color='#57dafd' font='16px'><a href=\"file:///mnt/Vancouver/programming/python/scripts/output/\" > \
+            /mnt/Vancouver/programming/python/scripts/output/</a></span>"
+
+    # ----------------------------------------------------------------------------
     * BASHRC (~/.bashrc [p37 venv]):
 
         alias hn='/home/victoria/venv/py3.7/bin/python /mnt/Vancouver/programming/python/scripts/hn.py; sleep 5; cat /mnt/Vancouver/programming/python/scripts/output/hn.txt'
@@ -50,6 +61,35 @@ warnings.filterwarnings("ignore", category=UserWarning)
 # ============================================================================
 
 # ----------------------------------------------------------------------------
+## SAMPLE SOURCE HTML [2020-04-17 07:51:58 -0700 (PST)]:
+
+# <tr class='athing' id='22897846'>
+#     <td align="right" valign="top" class="title">
+#         <span class="rank">1.</span>
+#     </td>
+#     <td valign="top" class="votelinks">
+#         <center>
+#             <a id='up_22897846' onclick='return vote(event, this, "up")' href='vote?id=22897846&amp;how=up&amp;auth=f2e63e48e9e0d1fdcf28e42b663a0e586b67f28f&amp;goto=news'><div class='votearrow' title='upvote'></div></a>
+#         </center>
+#     </td>
+#     <td class="title">
+#         <a href="https://www.npr.org/2020/04/17/820707276/deep-sea-squid-communicate-by-glowing-like-e-readers" class="storylink">Deep Sea Squid Communicate by Glowing Like E-Readers</a>
+#         <span class="sitebit comhead"> (<a href="from?site=npr.org"> <span class="sitestr">npr.org</span></a>) </span>
+#     </td>
+# </tr>
+#
+# <tr>
+#     <td colspan="2"></td>
+#     <td class="subtext">
+#         <span class="score" id="score_22897846">77 points</span> by <a href="user?id=pseudolus" class="hnuser">pseudolus</a>
+#         <span class="age"><a href="item?id=22897846">3 hours ago</a></span>
+#         <span id="unv_22897846"></span> | <a href="flag?id=22897846&amp;auth=f2e63e48e9e0d1fdcf28e42b663a0e586b67f28f&amp;goto=news">flag</a> | <a href="hide?id=22897846&amp;auth=f2e63e48e9e0d1fdcf28e42b663a0e586b67f28f&amp;goto=news" onclick="return hidestory(event, this, 22897846)">hide</a> | <a href="item?id=22897846">24&nbsp;comments</a>
+#     </td>
+# </tr>
+#
+# <tr class="spacer" style="height:5px"></tr>
+
+# ----------------------------------------------------------------------------
 ## INITIALIZATIONS:
 ## ----------------
 
@@ -61,6 +101,9 @@ from operator import itemgetter
 
 res = requests.get('https://news.ycombinator.com/news')
 soup = BeautifulSoup(res.text, 'html.parser')
+# print(soup)
+
+athing = soup.select('.athing')
 links = soup.select('.storylink')
 subtext = soup.select('.subtext')
 
@@ -91,13 +134,24 @@ with open('/tmp/old_date', 'w') as f:
 
 def create_custom_hn(links, subtext):
     hn = []
+    hn_base_url = 'https://news.ycombinator.com/item?id='
+    # ----------------------------------------
     for idx, item in enumerate(links):
+        # ----------------------------------------
+        ## HN ID -- Hacker News item source ('comments') URL:
+        ## -----------------------------------------
+        ## https://stackoverflow.com/questions/51837685/get-the-numbers-within-the-following-html-tag-via-beautifulsoup
+        ## https://stackoverflow.com/questions/24962673/beautiful-soup-getting-tag-id
+        hn_id = athing[idx].get('id')
+        hn_url = hn_base_url + hn_id
+        # print('hn_id:', hn_id)
+        # print('hn_url:', hn_url)
         # ----------------------------------------
         ## Title:
         ## ------
         title = links[idx].getText()
         # ----------------------------------------
-        ## URL:
+        ## TARGET_URL:
         ## ----
         href = links[idx].get('href', None)
         # ----------------------------------------
@@ -113,7 +167,7 @@ def create_custom_hn(links, subtext):
         ## ---------
         hn_element = soup.select('td.subtext')
         hn_element_text = hn_element[idx].get_text()
-        ## 107 points by pcr910303 2 hours ago  | hide | 52 comments 
+        ## 107 points by pcr910303 2 hours ago  | hide | 52 comments 
         ## https://stackoverflow.com/questions/4666973/how-to-extract-the-substring-between-two-markers
         try:
             comments = re.search('hide \| (.+?)\scomment.*$', hn_element_text).group(1)
@@ -139,7 +193,7 @@ def create_custom_hn(links, subtext):
                 (int(comments) > 1) and \
                 (not [w for w in exclusions if w in title.lower()]) and \
                 (not [w for w in exclusions if w in href.lower()]):
-            hn.append({'title': title, 'link': href, 'votes': points, 'comments': comments, 'age (h)': age})
+            hn.append({'title': title, 'hn_url': hn_url, 'ext_link': href, 'votes': points, 'comments': comments, 'age (h)': age})
     for i in hn:
         ## match: check for match only at beginning of string | search: check for match anywhere in string
         if re.search('minute', i['age (h)']):
@@ -159,23 +213,27 @@ def create_custom_hn(links, subtext):
     # ----------------------------------------
     ## Return:
     ## -------
+    # print('hn:\n:', hn)
     return hn
 
 hn_list = create_custom_hn(links, subtext)
-hn_list_sorted  = sorted(hn_list, key = itemgetter('age (h)'), reverse=True)
 
-print('Old date, time:', old_datetime)
+# hn_list_sorted  = sorted(hn_list, key = itemgetter('age (h)'), reverse=True)
+hn_list_sorted  = sorted(hn_list, key = itemgetter('age (h)'), reverse=True)
+# print('\nhn_list_sorted:\n', hn_list_sorted)
+
+print('\nOld date, time:', old_datetime)
 print('           now:', now.strftime('%Y-%m-%d %H:%M:%S'))
+
 ## https://stackoverflow.com/questions/24217641/how-to-get-the-difference-between-two-dates-in-hours-minutes-and-seconds
 date_diff = now - old_datetime
+
 ## AttributeError: 'datetime.timedelta' object has no attribute 'hours'
 # print('date_diff.seconds:', date_diff.seconds)
 date_diff_hours = date_diff.seconds / 3600
+
 print(' date_diff (h): {:0.4f}'.format(date_diff_hours))
 print()
-
-# with open('/mnt/Vancouver/programming/python/scripts/output/test.htm', 'w') as f:
-    # f.write(str(create_custom_hn(links, subtext)))
 
 ## https://stackoverflow.com/questions/4110891/how-to-redirect-the-output-of-print-to-a-txt-file
 ## Write results to file (redirects all print statements):
@@ -186,9 +244,10 @@ with open('/mnt/Vancouver/programming/python/scripts/output/hn.txt', 'w') as f:
     i = 0
     found = False
     for item in hn_list_sorted:
-        ## Testing:
+        print('i:', i)
+        ## For testing only:
         # if float(item['age (h)']) < 8:
-        if float(item['age (h)']) < date_diff_hours:
+        if float(item['age (h)']) > date_diff_hours:
             found = True
             break
         else:
@@ -213,4 +272,3 @@ with open('/mnt/Vancouver/programming/python/scripts/output/hn.txt', 'w') as f:
 sys.stdout = sys.__stdout__
 
 # ============================================================================
-

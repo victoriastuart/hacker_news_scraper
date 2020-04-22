@@ -244,7 +244,7 @@ with open('/mnt/Vancouver/programming/python/scripts/output/hn.txt', 'w') as f:
     i = 0
     found = False
     for item in hn_list_sorted:
-        print('i:', i)
+        # print('i:', i)
         ## For testing only:
         # if float(item['age (h)']) < 8:
         if float(item['age (h)']) > date_diff_hours:

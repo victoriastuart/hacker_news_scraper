@@ -1,173 +1,226 @@
-{
-  "title": "Malleable Systems: Software must be as easy to change as it is to use it",
-  "link": "https://malleable.systems/",
-  "votes": 314,
-  "comments": "178",
-  "age (h)": 20
-}
-{
-  "title": "Renaming files with mv without typing the name two times",
-  "link": "https://gist.github.com/premek/6e70446cfc913d3c929d7cdbfe896fef",
-  "votes": 588,
-  "comments": "222",
-  "age (h)": 15
-}
-{
-  "title": "Ask HN: How to rediscover the joy of programming?",
-  "link": "item?id=22860682",
-  "votes": 304,
-  "comments": "208",
-  "age (h)": 14
-}
-{
-  "title": "Honeypot as a Service",
-  "link": "https://haas.nic.cz/",
-  "votes": 94,
-  "comments": "13",
-  "age (h)": 14
-}
-{
-  "title": "Fear and beauty: two weeks living with Covid-19",
-  "link": "https://joshuaweissburg.com/2020/04/12/fear-and-beauty-two-weeks-living-with-covid-19/?utm_source=yc",
-  "votes": 210,
-  "comments": "146",
-  "age (h)": 13
-}
-{
-  "title": "Show HN: A Go unikernel capable of running GUI programs",
-  "link": "https://groups.google.com/forum/#!topic/golang-nuts/4cDIL5Vr_es",
-  "votes": 135,
-  "comments": "13",
-  "age (h)": 12
-}
-{
-  "title": "The Metric We Need to Manage Covid-19",
-  "link": "http://systrom.com/blog/the-metric-we-need-to-manage-covid-19/",
-  "votes": 142,
-  "comments": "57",
-  "age (h)": 12
-}
+Old date, time: 2020-04-22 12:02:08.335992
+           now: 2020-04-22 12:02:08
+ date_diff (h): 0.0000
+
 
 ==============================================================================
-Older results: 2020-04-13 18:44:20
+Older results: 2020-04-22 12:02:08.335992
 ==============================================================================
 
 {
-  "title": "John Conway",
-  "link": "https://terrytao.wordpress.com/2020/04/12/john-conway/",
-  "votes": 454,
-  "comments": "39",
-  "age (h)": 11
+  "title": "Now Open \u2013 AWS Africa (Cape Town) Region",
+  "hn_url": "https://news.ycombinator.com/item?id=22943536",
+  "ext_link": "https://aws.amazon.com/blogs/aws/now-open-aws-africa-cape-town-region/",
+  "votes": 183,
+  "comments": "55",
+  "age (h)": 10
 }
 {
-  "title": "The Weirdly Enduring Appeal of Weird Al Yankovic",
-  "link": "https://www.nytimes.com/2020/04/09/magazine/weird-al-yankovic.html",
-  "votes": 139,
-  "comments": "86",
-  "age (h)": 11
+  "title": "Guitar \u2013 Git GUI Client",
+  "hn_url": "https://news.ycombinator.com/item?id=22943427",
+  "ext_link": "https://github.com/soramimi/Guitar",
+  "votes": 189,
+  "comments": "152",
+  "age (h)": 10
 }
 {
-  "title": "Economists who defend disaster profiteers are wrong",
-  "link": "https://www.economist.com/finance-and-economics/2020/04/11/many-economists-defend-disaster-profiteers-they-are-wrong",
-  "votes": 141,
-  "comments": "293",
-  "age (h)": 11
-}
-{
-  "title": "Ladder of Algebraic Structures",
-  "link": "https://jwkennington.com/blog/algebra-ladder/",
-  "votes": 106,
-  "comments": "25",
+  "title": "Conversations with a six-year-old on functional programming (2018)",
+  "hn_url": "https://news.ycombinator.com/item?id=22943749",
+  "ext_link": "https://byorgey.wordpress.com/2018/05/06/conversations-with-a-six-year-old-on-functional-programming/",
+  "votes": 397,
+  "comments": "131",
   "age (h)": 9
 }
 {
-  "title": "Mongolia to restore traditional alphabet",
-  "link": "https://news.mn/en/791396/",
-  "votes": 147,
-  "comments": "132",
+  "title": "Permanent.org \u2013 Nonprofit, secure cloud storage",
+  "hn_url": "https://news.ycombinator.com/item?id=22943620",
+  "ext_link": "https://www.permanent.org/",
+  "votes": 258,
+  "comments": "169",
+  "age (h)": 9
+}
+{
+  "title": "Things I wished more developers knew about databases",
+  "hn_url": "https://news.ycombinator.com/item?id=22942278",
+  "ext_link": "https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78",
+  "votes": 348,
+  "comments": "200",
+  "age (h)": 8
+}
+{
+  "title": "Forth Lessons",
+  "hn_url": "https://news.ycombinator.com/item?id=22944382",
+  "ext_link": "http://wiki.laptop.org/go/Forth_Lessons",
+  "votes": 100,
+  "comments": "3",
   "age (h)": 7
 }
 {
-  "title": "Generating Crime Safe CSRF Tokens",
-  "link": "https://blog.hboeck.de/archives/900-Generating-CRIME-safe-CSRF-tokens.html",
-  "votes": 22,
-  "comments": "7",
+  "title": "You\u2019ve Got (0-Click) Mail Unassisted iOS Attacks RCE via Mobilemail/Maild",
+  "hn_url": "https://news.ycombinator.com/item?id=22944690",
+  "ext_link": "https://blog.zecops.com/vulnerabilities/unassisted-ios-attacks-via-mobilemail-maild-in-the-wild/",
+  "votes": 115,
+  "comments": "51",
   "age (h)": 6
 }
 {
-  "title": "The Webpage, an online RSS reader and news aggregator, styled like a newspaper",
-  "link": "https://news.russellsaw.io",
-  "votes": 82,
-  "comments": "21",
-  "age (h)": 5
-}
-{
-  "title": "PCem \u2013 An emulator of old PC hardware platforms",
-  "link": "https://pcem-emulator.co.uk/development.html",
-  "votes": 53,
+  "title": "ARM Development for the Office: Unboxing an Ampere EMag Workstation",
+  "hn_url": "https://news.ycombinator.com/item?id=22945065",
+  "ext_link": "https://www.anandtech.com/show/15737/arm-development-for-the-office-unboxing-an-ampere-emag-workstation",
+  "votes": 51,
   "comments": "15",
   "age (h)": 5
 }
 {
-  "title": "Beyond the Read-Eval Loop: The Artifacts System (1994)",
-  "link": "https://archive.org/details/DTIC_ADA276589/mode/2up",
-  "votes": 9,
-  "comments": "293",
+  "title": "Facebook AI, AWS partner to release new PyTorch libraries",
+  "hn_url": "https://news.ycombinator.com/item?id=22945360",
+  "ext_link": "https://ai.facebook.com/blog/facebook-ai-aws-partner-to-release-new-pytorch-libraries-/",
+  "votes": 37,
+  "comments": "6",
   "age (h)": 5
 }
 {
-  "title": "Ask HN: What are you reading to make sense of the economy?",
-  "link": "item?id=22861452",
-  "votes": 133,
-  "comments": "136",
+  "title": "Our data centers now work harder when the sun shines and wind blows",
+  "hn_url": "https://news.ycombinator.com/item?id=22945942",
+  "ext_link": "https://blog.google/inside-google/infrastructure/data-centers-work-harder-sun-shines-wind-blows",
+  "votes": 210,
+  "comments": "50",
   "age (h)": 4
 }
 {
-  "title": "Ask HN: In the current crisis is starting freelancing doable?",
-  "link": "item?id=22864188",
-  "votes": 54,
-  "comments": "19",
+  "title": "The new Clang _ExtInt feature provides exact bitwidth integer types",
+  "hn_url": "https://news.ycombinator.com/item?id=22946014",
+  "ext_link": "http://blog.llvm.org/2020/04/the-new-clang-extint-feature-provides.html",
+  "votes": 123,
+  "comments": "96",
+  "age (h)": 4
+}
+{
+  "title": "Small business rescue earned banks $10B in fees",
+  "hn_url": "https://news.ycombinator.com/item?id=22946092",
+  "ext_link": "https://www.npr.org/2020/04/22/840678984/small-business-rescue-earned-banks-10-billion-in-fees",
+  "votes": 402,
+  "comments": "241",
+  "age (h)": 4
+}
+{
+  "title": "Show HN: Tail Recursion Optimization for the JVM",
+  "hn_url": "https://news.ycombinator.com/item?id=22945725",
+  "ext_link": "https://github.com/Sipkab/jvm-tail-recursion",
+  "votes": 51,
+  "comments": "12",
+  "age (h)": 4
+}
+{
+  "title": "Coronavirus May Mean Automation Is Coming Sooner Than We Thought",
+  "hn_url": "https://news.ycombinator.com/item?id=22946084",
+  "ext_link": "https://liwaiwai.com/2020/04/21/coronavirus-may-mean-automation-is-coming-sooner-than-we-thought/",
+  "votes": 124,
+  "comments": "92",
+  "age (h)": 4
+}
+{
+  "title": "Understanding BERT and Search Relevance (2019)",
+  "hn_url": "https://news.ycombinator.com/item?id=22945690",
+  "ext_link": "https://opensourceconnections.com/blog/2019/11/05/understanding-bert-and-search-relevance/",
+  "votes": 53,
+  "comments": "15",
+  "age (h)": 4
+}
+{
+  "title": "Paketo: Modular Buildpacks in Go",
+  "hn_url": "https://news.ycombinator.com/item?id=22946949",
+  "ext_link": "https://paketo.io/",
+  "votes": 51,
+  "comments": "13",
   "age (h)": 3
 }
 {
-  "title": "gh \u2013 GitHub's new CLI",
-  "link": "https://johnpapa.net/try-githubs-new-cli-gh/",
-  "votes": 16,
-  "comments": "4",
+  "title": "Specification gaming: the flip side of AI ingenuity \u2013 DeepMind",
+  "hn_url": "https://news.ycombinator.com/item?id=22946824",
+  "ext_link": "https://deepmind.com/blog/article/Specification-gaming-the-flip-side-of-AI-ingenuity",
+  "votes": 29,
+  "comments": "9",
+  "age (h)": 3
+}
+{
+  "title": "A Man Who Designed Ghost Armies and Opera Houses (2016)",
+  "hn_url": "https://news.ycombinator.com/item?id=22943983",
+  "ext_link": "http://nautil.us/issue/38/noise/the-man-who-designed-ghost-armies-and-opera-houses",
+  "votes": 15,
+  "comments": "15",
+  "age (h)": 3
+}
+{
+  "title": "Why I'm Building a Side Dish (and Maybe You Should Too)",
+  "hn_url": "https://news.ycombinator.com/item?id=22946674",
+  "ext_link": "https://noahbragg.com/blog/why-im-building-a-side-dish/",
+  "votes": 27,
+  "comments": "17",
+  "age (h)": 3
+}
+{
+  "title": "Magic Leap reportedly slashes jobs and steps away from consumer plans",
+  "hn_url": "https://news.ycombinator.com/item?id=22947424",
+  "ext_link": "https://techcrunch.com/2020/04/22/magic-leap-announces-layoffs-amid-covid-19-slowdown/",
+  "votes": 215,
+  "comments": "155",
   "age (h)": 2
 }
 {
-  "title": "Half of American workers would rather work from home forever",
-  "link": "https://www.zippia.com/advice/coronavirus-remote-work-survey/",
-  "votes": 50,
-  "comments": "30",
+  "title": "Incremental Builds in Gatsby Cloud",
+  "hn_url": "https://news.ycombinator.com/item?id=22947395",
+  "ext_link": "https://www.gatsbyjs.org/blog/2020-04-22-announcing-incremental-builds/",
+  "votes": 64,
+  "comments": "20",
+  "age (h)": 2
+}
+{
+  "title": "Build a real-time Twitter clone with LiveView and Phoenix 1.5",
+  "hn_url": "https://news.ycombinator.com/item?id=22947341",
+  "ext_link": "https://www.phoenixframework.org/blog/build-a-real-time-twitter-clone-in-15-minutes-with-live-view-and-phoenix-1-5",
+  "votes": 226,
+  "comments": "54",
+  "age (h)": 2
+}
+{
+  "title": "Incremental Regular Expressions (2012)",
+  "hn_url": "https://news.ycombinator.com/item?id=22935719",
+  "ext_link": "http://jkff.info/articles/ire/",
+  "votes": 17,
+  "comments": "3",
+  "age (h)": 2
+}
+{
+  "title": "CS Unplugged \u2013 Computer Science without a computer",
+  "hn_url": "https://news.ycombinator.com/item?id=22948055",
+  "ext_link": "https://classic.csunplugged.org/books/",
+  "votes": 48,
+  "comments": "14",
   "age (h)": 1
 }
 {
-  "title": "Digital surveillance technologies to fight pandemic must respect human rights",
-  "link": "https://www.ccc.de/en/updates/2020/pandemie-menschenrechte",
-  "votes": 53,
-  "comments": "7",
+  "title": "Are Ideas Getting Harder to Find?",
+  "hn_url": "https://news.ycombinator.com/item?id=22947968",
+  "ext_link": "https://www.aeaweb.org/articles?id=10.1257/aer.20180338",
+  "votes": 28,
+  "comments": "36",
   "age (h)": 1
 }
 {
-  "title": "Comparing HTTP/3 vs. HTTP/2 Performance",
-  "link": "https://blog.cloudflare.com/http-3-vs-http-2/",
-  "votes": 86,
-  "comments": "4",
+  "title": "Software Engineering (1968) [pdf]",
+  "hn_url": "https://news.ycombinator.com/item?id=22944684",
+  "ext_link": "http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF",
+  "votes": 7,
+  "comments": "12",
   "age (h)": 1
 }
 {
-  "title": "Google cancels legacy Google Play Music subscriptions",
-  "link": "https://support.google.com/googleplay/thread/38496877",
-  "votes": 145,
-  "comments": "65",
-  "age (h)": 0.9333333333333333
+  "title": "Employees refuse to return to work as long as they\u2019re getting extra $600/week.",
+  "hn_url": "https://news.ycombinator.com/item?id=22948604",
+  "ext_link": "https://www.wsj.com/articles/our-restaurants-cant-reopen-until-august-11587504885",
+  "votes": 6,
+  "comments": "3",
+  "age (h)": 0.6166666666666667
 }
-{
-  "title": "IMF Says Great Lockdown Recession Likely Worst Since Depression",
-  "link": "https://www.bloomberg.com/news/articles/2020-04-14/imf-says-great-lockdown-recession-likely-worst-since-depression",
-  "votes": 10,
-  "comments": "5",
-  "age (h)": 0.26666666666666666
-}
+[victoria@victoria ~]$ 

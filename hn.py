@@ -10,7 +10,7 @@
      based on: https://github.com/RBrache21/HackerNewsScrapper
       created: 2020-04-09
       version: 05
-last modified: 2020-04-22 11:56:11 -0700 (PST)
+last modified: 2020-04-23 18:10:46 -0700 (PST)
 
    Notes: I program in Vim with textwidth=220
 
@@ -247,12 +247,13 @@ with open('/mnt/Vancouver/programming/python/scripts/output/hn.txt', 'w') as f:
         # print('i:', i)
         ## For testing only:
         # if float(item['age (h)']) < 8:
-        if float(item['age (h)']) > date_diff_hours:
+        # if float(item['age (h)']) < date_diff_hours:
+        # Since I run this every 12 h (6 am/pm), easiest to just make "new" < 12h:
+        if float(item['age (h)']) < 12:
             found = True
             break
         else:
             i += 1
-
     if found:
         """ mode='a' : append | "w" : overwrite
         """

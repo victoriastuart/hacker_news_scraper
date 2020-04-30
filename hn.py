@@ -9,8 +9,8 @@
        author: Victoria A. Stuart
      based on: https://github.com/RBrache21/HackerNewsScrapper
       created: 2020-04-09
-      version: 05
-last modified: 2020-04-23 18:10:46 -0700 (PST)
+      version: 06
+last modified: 2020-04-30 09:05:07 -0700 (PST)
 
    Notes: I program in Vim with textwidth=220
 
@@ -20,6 +20,7 @@ Versions:
     * v03 : added [exclusions] list; cleaned up code (removed extraneous comments ...)
     * v04 : added URL to Hacker News source (which contains the Comments, if any)
     * v05 : edited (cleaned) script
+    * v06 : minor edits: replaced brittle results older that code with simple "if float(item['age (h)']) < 12:"; ...
 
 See also:
     * https://edavis.github.io/hnrss/
@@ -244,11 +245,7 @@ with open('/mnt/Vancouver/programming/python/scripts/output/hn.txt', 'w') as f:
     i = 0
     found = False
     for item in hn_list_sorted:
-        # print('i:', i)
-        ## For testing only:
-        # if float(item['age (h)']) < 8:
-        # if float(item['age (h)']) < date_diff_hours:
-        # Since I run this every 12 h (6 am/pm), easiest to just make "new" < 12h:
+        # Since I run this script every 12 h (6 am/pm), regard "new" < 12h:
         if float(item['age (h)']) < 12:
             found = True
             break

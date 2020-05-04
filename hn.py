@@ -9,8 +9,8 @@
        author: Victoria A. Stuart
      based on: https://github.com/RBrache21/HackerNewsScrapper
       created: 2020-04-09
-      version: 06
-last modified: 2020-04-30 09:05:07 -0700 (PST)
+      version: 07
+last modified: 2020-05-04 08:32:18 -0700 (PST)
 
    Notes: I program in Vim with textwidth=220
 
@@ -21,6 +21,7 @@ Versions:
     * v04 : added URL to Hacker News source (which contains the Comments, if any)
     * v05 : edited (cleaned) script
     * v06 : minor edits: replaced brittle results older that code with simple "if float(item['age (h)']) < 12:"; ...
+    * v06 : run 2x daily --> once/day (6 am); added regex to strip trailing commas from JSON output in written file
 
 See also:
     * https://edavis.github.io/hnrss/
@@ -240,20 +241,21 @@ print()
 ## Write results to file (redirects all print statements):
 import sys
 with open('/mnt/Vancouver/programming/python/scripts/output/hn.txt', 'w') as f:
+    """ mode='a' : append | "w" : overwrite
+    """
     sys.stdout = f
 
     i = 0
     found = False
     for item in hn_list_sorted:
         # Since I run this script every 12 h (6 am/pm), regard "new" < 12h:
-        if float(item['age (h)']) < 12:
+        # if float(item['age (h)']) < 12:
+        if float(item['age (h)']) < 24:
             found = True
             break
         else:
             i += 1
     if found:
-        """ mode='a' : append | "w" : overwrite
-        """
         for item in range(0, i):
             print(json.dumps(hn_list_sorted[item], indent=2))
         print('\n==============================================================================')
@@ -264,6 +266,17 @@ with open('/mnt/Vancouver/programming/python/scripts/output/hn.txt', 'w') as f:
     else:
         ## All results are 'new,;' so print all of them:
         print(json.dumps(item, indent=2))
+
+# ----------------------------------------------------------------------------
+# Postprocessing: remove trailing commas at end of JSON output lines (interferes with Vim `gx` (open URL) command.
+
+## https://stackoverflow.com/questions/4427542/how-to-do-sed-like-text-replace-with-python
+## Can't "rw" in one operation (open file), so do in two parts:
+with open('/mnt/Vancouver/programming/python/scripts/output/hn.txt', 'r') as f:
+    lines = f.readlines()
+with open('/mnt/Vancouver/programming/python/scripts/output/hn.txt', 'w') as f:
+    for line in lines:
+        f.write(re.sub(r',$', '', line))
 
 ## https://stackoverflow.com/questions/4110891/how-to-redirect-the-output-of-print-to-a-txt-file
 ## RESET print redirects:

@@ -12,6 +12,6 @@ Sample output: [hn.txt](https://github.com/victoriastuart/hacker_news_scraper/bl
 
 **Updates**
 
-* provided a script, [hn-regex_test.py]() for testing regex expressions over "hn.txt" output file
+* provided a script, [hn-regex_test.py](https://github.com/victoriastuart/hacker_news_scraper/blob/master/hn-regex_test.py) for testing regex expressions over "hn.txt" output file
 
 * added a dictionary and a method ("multiple_replace()") to "hn.py" for postprocessing of various annoyances (e.g. BeautifulSoup "smart quotes" that output to the "hn.txt" output file

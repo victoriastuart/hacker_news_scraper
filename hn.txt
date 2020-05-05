@@ -1,226 +1,47 @@
-Old date, time: 2020-04-22 12:02:08.335992
-           now: 2020-04-22 12:02:08
- date_diff (h): 0.0000
-
-
 ==============================================================================
-Older results: 2020-04-22 12:02:08.335992
+Older results: 2020-05-03 06:00:02
 ==============================================================================
 
 {
-  "title": "Now Open \u2013 AWS Africa (Cape Town) Region"
-  "hn_url": "https://news.ycombinator.com/item?id=22943536"
-  "ext_link": "https://aws.amazon.com/blogs/aws/now-open-aws-africa-cape-town-region/"
-  "votes": 183
-  "comments": "55"
-  "age (h)": 10
+  title: Jetson AGX Xavier
+  hn_url: https://news.ycombinator.com/item?id=23061006
+  ext_link: https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-agx-xavier/
+  votes: 157
+  comments: 80
+  age (h): 18
 }
 {
-  "title": "Guitar \u2013 Git GUI Client"
-  "hn_url": "https://news.ycombinator.com/item?id=22943427"
-  "ext_link": "https://github.com/soramimi/Guitar"
-  "votes": 189
-  "comments": "152"
-  "age (h)": 10
+  title: Startup financial models - Templates compared for SaaS
+  hn_url: https://news.ycombinator.com/item?id=23061796
+  ext_link: https://www.stephnass.com/blog/startup-financial-model
+  votes: 526
+  comments: 36
+  age (h): 16
 }
 {
-  "title": "Conversations with a six-year-old on functional programming (2018)"
-  "hn_url": "https://news.ycombinator.com/item?id=22943749"
-  "ext_link": "https://byorgey.wordpress.com/2018/05/06/conversations-with-a-six-year-old-on-functional-programming/"
-  "votes": 397
-  "comments": "131"
-  "age (h)": 9
+  title: Horizon - a free and open source electronic PCB design package
+  hn_url: https://news.ycombinator.com/item?id=23062174
+  ext_link: https://horizon-eda.org/
+  votes: 197
+  comments: 84
+  age (h): 15
+}
+
+[... SNIP ...]
+
+{
+  title: Apple updates 13-inch MacBook Pro with Magic Keyboard double the storage and
+  hn_url: https://news.ycombinator.com/item?id=23067154
+  ext_link: https://www.apple.com/newsroom/2020/05/apple-updates-13-inch-macbook-pro-with-magic-keyboard-double-the-storage-and-faster-performance/
+  votes: 21
+  comments: 3
+  age (h): 0.4166666666666667
 }
 {
-  "title": "Permanent.org \u2013 Nonprofit, secure cloud storage"
-  "hn_url": "https://news.ycombinator.com/item?id=22943620"
-  "ext_link": "https://www.permanent.org/"
-  "votes": 258
-  "comments": "169"
-  "age (h)": 9
+  title: Apple releases new MacBook Pro 13-Inch
+  hn_url: https://news.ycombinator.com/item?id=23067181
+  ext_link: https://www.apple.com/macbook-pro-13/
+  votes: 66
+  comments: 75
+  age (h): 0.36666666666666664
 }
-{
-  "title": "Things I wished more developers knew about databases"
-  "hn_url": "https://news.ycombinator.com/item?id=22942278"
-  "ext_link": "https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78"
-  "votes": 348
-  "comments": "200"
-  "age (h)": 8
-}
-{
-  "title": "Forth Lessons"
-  "hn_url": "https://news.ycombinator.com/item?id=22944382"
-  "ext_link": "http://wiki.laptop.org/go/Forth_Lessons"
-  "votes": 100
-  "comments": "3"
-  "age (h)": 7
-}
-{
-  "title": "You\u2019ve Got (0-Click) Mail Unassisted iOS Attacks RCE via Mobilemail/Maild"
-  "hn_url": "https://news.ycombinator.com/item?id=22944690"
-  "ext_link": "https://blog.zecops.com/vulnerabilities/unassisted-ios-attacks-via-mobilemail-maild-in-the-wild/"
-  "votes": 115
-  "comments": "51"
-  "age (h)": 6
-}
-{
-  "title": "ARM Development for the Office: Unboxing an Ampere EMag Workstation"
-  "hn_url": "https://news.ycombinator.com/item?id=22945065"
-  "ext_link": "https://www.anandtech.com/show/15737/arm-development-for-the-office-unboxing-an-ampere-emag-workstation"
-  "votes": 51
-  "comments": "15"
-  "age (h)": 5
-}
-{
-  "title": "Facebook AI, AWS partner to release new PyTorch libraries"
-  "hn_url": "https://news.ycombinator.com/item?id=22945360"
-  "ext_link": "https://ai.facebook.com/blog/facebook-ai-aws-partner-to-release-new-pytorch-libraries-/"
-  "votes": 37
-  "comments": "6"
-  "age (h)": 5
-}
-{
-  "title": "Our data centers now work harder when the sun shines and wind blows"
-  "hn_url": "https://news.ycombinator.com/item?id=22945942"
-  "ext_link": "https://blog.google/inside-google/infrastructure/data-centers-work-harder-sun-shines-wind-blows"
-  "votes": 210
-  "comments": "50"
-  "age (h)": 4
-}
-{
-  "title": "The new Clang _ExtInt feature provides exact bitwidth integer types"
-  "hn_url": "https://news.ycombinator.com/item?id=22946014"
-  "ext_link": "http://blog.llvm.org/2020/04/the-new-clang-extint-feature-provides.html"
-  "votes": 123
-  "comments": "96"
-  "age (h)": 4
-}
-{
-  "title": "Small business rescue earned banks $10B in fees"
-  "hn_url": "https://news.ycombinator.com/item?id=22946092"
-  "ext_link": "https://www.npr.org/2020/04/22/840678984/small-business-rescue-earned-banks-10-billion-in-fees"
-  "votes": 402
-  "comments": "241"
-  "age (h)": 4
-}
-{
-  "title": "Show HN: Tail Recursion Optimization for the JVM"
-  "hn_url": "https://news.ycombinator.com/item?id=22945725"
-  "ext_link": "https://github.com/Sipkab/jvm-tail-recursion"
-  "votes": 51
-  "comments": "12"
-  "age (h)": 4
-}
-{
-  "title": "Coronavirus May Mean Automation Is Coming Sooner Than We Thought"
-  "hn_url": "https://news.ycombinator.com/item?id=22946084"
-  "ext_link": "https://liwaiwai.com/2020/04/21/coronavirus-may-mean-automation-is-coming-sooner-than-we-thought/"
-  "votes": 124
-  "comments": "92"
-  "age (h)": 4
-}
-{
-  "title": "Understanding BERT and Search Relevance (2019)"
-  "hn_url": "https://news.ycombinator.com/item?id=22945690"
-  "ext_link": "https://opensourceconnections.com/blog/2019/11/05/understanding-bert-and-search-relevance/"
-  "votes": 53
-  "comments": "15"
-  "age (h)": 4
-}
-{
-  "title": "Paketo: Modular Buildpacks in Go"
-  "hn_url": "https://news.ycombinator.com/item?id=22946949"
-  "ext_link": "https://paketo.io/"
-  "votes": 51
-  "comments": "13"
-  "age (h)": 3
-}
-{
-  "title": "Specification gaming: the flip side of AI ingenuity \u2013 DeepMind"
-  "hn_url": "https://news.ycombinator.com/item?id=22946824"
-  "ext_link": "https://deepmind.com/blog/article/Specification-gaming-the-flip-side-of-AI-ingenuity"
-  "votes": 29
-  "comments": "9"
-  "age (h)": 3
-}
-{
-  "title": "A Man Who Designed Ghost Armies and Opera Houses (2016)"
-  "hn_url": "https://news.ycombinator.com/item?id=22943983"
-  "ext_link": "http://nautil.us/issue/38/noise/the-man-who-designed-ghost-armies-and-opera-houses"
-  "votes": 15
-  "comments": "15"
-  "age (h)": 3
-}
-{
-  "title": "Why I'm Building a Side Dish (and Maybe You Should Too)"
-  "hn_url": "https://news.ycombinator.com/item?id=22946674"
-  "ext_link": "https://noahbragg.com/blog/why-im-building-a-side-dish/"
-  "votes": 27
-  "comments": "17"
-  "age (h)": 3
-}
-{
-  "title": "Magic Leap reportedly slashes jobs and steps away from consumer plans"
-  "hn_url": "https://news.ycombinator.com/item?id=22947424"
-  "ext_link": "https://techcrunch.com/2020/04/22/magic-leap-announces-layoffs-amid-covid-19-slowdown/"
-  "votes": 215
-  "comments": "155"
-  "age (h)": 2
-}
-{
-  "title": "Incremental Builds in Gatsby Cloud"
-  "hn_url": "https://news.ycombinator.com/item?id=22947395"
-  "ext_link": "https://www.gatsbyjs.org/blog/2020-04-22-announcing-incremental-builds/"
-  "votes": 64
-  "comments": "20"
-  "age (h)": 2
-}
-{
-  "title": "Build a real-time Twitter clone with LiveView and Phoenix 1.5"
-  "hn_url": "https://news.ycombinator.com/item?id=22947341"
-  "ext_link": "https://www.phoenixframework.org/blog/build-a-real-time-twitter-clone-in-15-minutes-with-live-view-and-phoenix-1-5"
-  "votes": 226
-  "comments": "54"
-  "age (h)": 2
-}
-{
-  "title": "Incremental Regular Expressions (2012)"
-  "hn_url": "https://news.ycombinator.com/item?id=22935719"
-  "ext_link": "http://jkff.info/articles/ire/"
-  "votes": 17
-  "comments": "3"
-  "age (h)": 2
-}
-{
-  "title": "CS Unplugged \u2013 Computer Science without a computer"
-  "hn_url": "https://news.ycombinator.com/item?id=22948055"
-  "ext_link": "https://classic.csunplugged.org/books/"
-  "votes": 48
-  "comments": "14"
-  "age (h)": 1
-}
-{
-  "title": "Are Ideas Getting Harder to Find?"
-  "hn_url": "https://news.ycombinator.com/item?id=22947968"
-  "ext_link": "https://www.aeaweb.org/articles?id=10.1257/aer.20180338"
-  "votes": 28
-  "comments": "36"
-  "age (h)": 1
-}
-{
-  "title": "Software Engineering (1968) [pdf]"
-  "hn_url": "https://news.ycombinator.com/item?id=22944684"
-  "ext_link": "http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF"
-  "votes": 7
-  "comments": "12"
-  "age (h)": 1
-}
-{
-  "title": "Employees refuse to return to work as long as they\u2019re getting extra $600/week."
-  "hn_url": "https://news.ycombinator.com/item?id=22948604"
-  "ext_link": "https://www.wsj.com/articles/our-restaurants-cant-reopen-until-august-11587504885"
-  "votes": 6
-  "comments": "3"
-  "age (h)": 0.6166666666666667
-}
-[victoria@victoria ~]$ 

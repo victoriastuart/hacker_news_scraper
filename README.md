@@ -15,6 +15,6 @@ Sample output: [hn.txt](https://github.com/victoriastuart/hacker_news_scraper/bl
 * I provided a script, [hn-regex_test.py](https://github.com/victoriastuart/hacker_news_scraper/blob/master/hn-regex_test.py) for testing regex expressions over "hn.txt" output file:
 
   * hn.txt output (raw, before postprocessing): [hn.2020.05.03.raw.txt](https://github.com/victoriastuart/hacker_news_scraper/blob/master/hn.2020.05.03.raw.txt)
-  * hn.txt output (after postprocessing): [hn.2020.05.03.postprocessed.txt]()
+  * hn.txt output (after postprocessing): [hn.2020.05.03.postprocessed.txt](https://github.com/victoriastuart/hacker_news_scraper/blob/master/hn.2020.05.03.postprocessed.txt)
 
 * added a dictionary and a method, `multiple_replace()`, to "hn.py" for postprocessing of various annoyances; e.g., the  BeautifulSoup "smart quotes" that get added to the "hn.txt" output file

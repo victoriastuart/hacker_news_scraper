@@ -1,0 +1,87 @@
+==============================================================================
+Older results: 2020-05-03 06:00:02
+==============================================================================
+
+{
+  "title": "Jetson AGX Xavier",
+  "hn_url": "https://news.ycombinator.com/item?id=23061006",
+  "ext_link": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-agx-xavier/",
+  "votes": 157,
+  "comments": "80",
+  "age (h)": 18,
+}
+{
+  "title": "Startup financial models \u2013 Templates compared for SaaS"
+  "hn_url": "https://news.ycombinator.com/item?id=23061796"
+  "ext_link": "https://www.stephnass.com/blog/startup-financial-model"
+  "votes": 526
+  "comments": "36"
+  "age (h)": 16
+}
+{
+  "title": "Horizon \u2013 a free and open source electronic PCB design package"
+  "hn_url": "https://news.ycombinator.com/item?id=23062174"
+  "ext_link": "https://horizon-eda.org/"
+  "votes": 197
+  "comments": "84"
+  "age (h)": 15
+}
+{
+  "title": "How Recursion Got into Programming (2014)"
+  "hn_url": "https://news.ycombinator.com/item?id=23061881"
+  "ext_link": "https://vanemden.wordpress.com/2014/06/18/how-recursion-got-into-programming-a-comedy-of-errors-3/"
+  "votes": 101
+  "comments": "33"
+  "age (h)": 15
+}
+{
+  "title": "A man feeding a remote Alaska town with a Costco card and a ship"
+  "hn_url": "https://news.ycombinator.com/item?id=23062570"
+  "ext_link": "https://thehustle.co/the-man-feeding-a-remote-alaska-town-with-a-costco-card-and-a-ship"
+  "votes": 404
+  "comments": "196"
+  "age (h)": 14
+}
+
+[ ... SNIP! ... ]
+
+{
+  "title": "Facing meat shortages, some Americans turn to hunting during pandemic \u2013 Reuters"
+  "hn_url": "https://news.ycombinator.com/item?id=23066892"
+  "ext_link": "https://www.reuters.com/article/us-health-coronavirus-usa-hunting/facing-meat-shortages-some-americans-turn-to-hunting-during-pandemic-idUSKBN22F0G4"
+  "votes": 18
+  "comments": "13"
+  "age (h)": 1
+}
+{
+  "title": "Ask HN: Did Google turn off IMAP access for good over the weekend?"
+  "hn_url": "https://news.ycombinator.com/item?id=23066561"
+  "ext_link": "item?id=23066561"
+  "votes": 47
+  "comments": "27"
+  "age (h)": 1
+}
+{
+  "title": "Malaria 'Completely Stopped' by Microbe"
+  "hn_url": "https://news.ycombinator.com/item?id=23067008"
+  "ext_link": "https://www.bbc.co.uk/news/health-52530828"
+  "votes": 24
+  "comments": "3"
+  "age (h)": 0.7833333333333333
+}
+{
+  "title": "Apple updates 13-inch MacBook Pro with Magic Keyboard, double the storage, and"
+  "hn_url": "https://news.ycombinator.com/item?id=23067154"
+  "ext_link": "https://www.apple.com/newsroom/2020/05/apple-updates-13-inch-macbook-pro-with-magic-keyboard-double-the-storage-and-faster-performance/"
+  "votes": 21
+  "comments": "3"
+  "age (h)": 0.4166666666666667
+}
+{
+  "title": "Apple releases new MacBook Pro 13-Inch"
+  "hn_url": "https://news.ycombinator.com/item?id=23067181"
+  "ext_link": "https://www.apple.com/macbook-pro-13/"
+  "votes": 66
+  "comments": "75"
+  "age (h)": 0.36666666666666664
+}

@@ -18,3 +18,16 @@ Sample output: [hn.txt](https://github.com/victoriastuart/hacker_news_scraper/bl
   * hn.txt output (after postprocessing): [hn.2020.05.03.postprocessed.txt](https://github.com/victoriastuart/hacker_news_scraper/blob/master/hn.2020.05.03.postprocessed.txt)
 
 * added a dictionary and a method, `multiple_replace()`, to "hn.py" for postprocessing of various annoyances; e.g., the  BeautifulSoup "smart quotes" that get added to the "hn.txt" output file
+
+* I scheduled the following in `/etc/crontab` which allows me to read (and save daily snapshots) of the output in my mail client (Claws Mail: URLs active) ...
+
+```bash
+# At 6:05 am [https://crontab.guru/#5_6_*_*_*]:
+5    6    *    *    *    victoria    nice -n 19    mutt -e "set content_type=text/text" -s 'HackerNews' mail@VictoriasJourney.com -i /mnt/Vancouver/programming/python/scripts/output/hn.txt
+```
+
+`mutt` arguments:
+
+`s : subject`
+
+`i : include file as message body`
